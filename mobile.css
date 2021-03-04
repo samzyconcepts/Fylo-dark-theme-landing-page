@@ -61,6 +61,7 @@
 		width: 250px;
 		display: block;
 		margin-bottom: 1.5rem;
+		text-align: center;
 	}
 	.access-input .submit {
 		margin: 0;

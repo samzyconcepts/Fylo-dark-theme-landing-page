@@ -264,6 +264,7 @@ h3 {
 	border-radius: 1.5rem;
 	width: 400px;
 	padding: 0.8rem 2rem;
+	color: rgba(0, 0, 0, 0.3);
 }
 .access-input .submit {
 	margin-left: 1.25rem;
