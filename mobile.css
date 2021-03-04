@@ -1,0 +1,161 @@
+@media only screen and (max-width: 768px) {
+	#main {
+		padding: 0;
+	}
+	#main nav {
+		padding: 20px 25px;
+	}
+	#nav-logo img {
+		height: 20px;
+	}
+	.menu ul li a {
+		margin: 0 5px;
+	}
+	.model-img img {
+		width: 250px;
+		object-fit: contain;
+	}
+	.model-text {
+		width: 337px;
+	}
+	.model-text h1,
+	.content-heading,
+	.access-content h1 {
+		font-size: 1.8rem;
+	}
+	.model-text p {
+		width: 85%;
+	}
+	#features {
+		/* max-width: 500px; */
+		margin: 0 auto;
+		padding: 50px 0;
+	}
+	#features .features-box {
+		display: block;
+	}
+	#features .box p {
+		width: 300px;
+	}
+	#team {
+		flex-direction: column;
+		padding: 0 5px;
+	}
+	.team-img img {
+		width: 20rem;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+	.comment-box {
+		margin: 1.5rem auto;
+	}
+	.access-content {
+		padding: 1rem;
+		height: 400px;
+		width: 400px;
+	}
+	.access-content p {
+		padding: 0 1.5rem;
+	}
+	.access-input .email {
+		width: 250px;
+		display: block;
+		margin-bottom: 1.5rem;
+	}
+	.access-input .submit {
+		margin: 0;
+		padding: 0.8rem 4rem;
+	}
+	.company-footer .company-info {
+		flex-direction: column;
+	}
+	.company-info .location li:nth-child(2) {
+		width: 300px;
+		line-height: 1.8;
+	}
+	.social-media {
+		display: flex;
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 500px) {
+	#main {
+		padding: 0;
+	}
+	#main::after {
+		background: url(/images/bg-curvy-mobile.svg) no-repeat;
+		background-size: 600px 300px;
+		background-position: 30% 100%;
+		padding: 0;
+	}
+	#main nav {
+		padding: 20px 25px;
+	}
+	#nav-logo img {
+		height: 20px;
+	}
+	.menu ul li a {
+		margin: 0 5px;
+	}
+	.model-img img {
+		width: 250px;
+		object-fit: contain;
+	}
+	.model-text h1,
+	.content-heading,
+	.access-content h1 {
+		font-size: 1.8rem;
+	}
+	.model-text p {
+		width: 85%;
+	}
+	#features .features-box {
+		display: block;
+	}
+	#features .box p {
+		width: 300px;
+	}
+	#team {
+		width: 95%;
+		flex-direction: column;
+		margin: 50px auto;
+		padding: 0 5px;
+	}
+	.team-content .content-heading {
+		font-size: 20px;
+	}
+	#comments .c-box-container .bg-quote {
+		height: 20px;
+		top: 5px;
+		left: 30px;
+	}
+	.comment-box {
+		width: 320px;
+		height: 180px;
+		padding: 20px;
+		margin: 1.5rem auto;
+	}
+
+	/* .comment-box .profile {
+		margin: auto 0;
+	} */
+	.access-content {
+		padding: 1rem;
+		height: 400px;
+		width: 350px;
+	}
+	.access-content p {
+		padding: 0 1.5rem;
+	}
+	.company-footer .company-info {
+		flex-direction: column;
+	}
+	.company-info .location li:nth-child(2) {
+		width: 300px;
+		line-height: 1.8;
+	}
+	.social-media {
+		display: flex;
+		justify-content: center;
+	}
+}
