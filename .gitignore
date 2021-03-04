@@ -13,9 +13,15 @@
 
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
+
 .gitignore
-design/
-*.md
+
+design
+
+README.md
+
+style-guide.md
+
 #Features Team Sign In
 
 #All your files in one secure location, accessibleanywhere. 
