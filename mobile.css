@@ -69,6 +69,13 @@
 	.company-footer .company-info {
 		flex-direction: column;
 	}
+	.company-info .info:first-child,
+	.company-info .info:last-child {
+		margin: 2rem 0;
+	}
+	.company-info .info:nth-child(n + 2) {
+		margin-bottom: 2rem;
+	}
 	.company-info .location li:nth-child(2) {
 		width: 300px;
 		line-height: 1.8;
