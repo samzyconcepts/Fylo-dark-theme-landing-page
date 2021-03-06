@@ -300,6 +300,7 @@ footer {
 }
 .company-info .location {
 	display: flex;
+	align-content: flex-start;
 }
 .company-info .location li:nth-child(2) {
 	padding-left: 20px;
@@ -308,7 +309,9 @@ footer {
 .contact .phone,
 .contact .email {
 	display: flex;
+	align-self: center;
 	align-items: center;
+	height: 50px;
 	margin-bottom: 1.25rem;
 }
 .contact .phone li:nth-child(2),

@@ -70,6 +70,9 @@
 	.company-footer .company-info {
 		flex-direction: column;
 	}
+	.company-info .location li img {
+		padding-top: 5px;
+	}
 	.company-info .info:first-child,
 	.company-info .info:last-child {
 		margin: 2rem 0;
