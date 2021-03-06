@@ -310,8 +310,6 @@ footer {
 .contact .email {
 	display: flex;
 	align-self: center;
-	align-items: center;
-	height: 50px;
 	margin-bottom: 1.25rem;
 }
 .contact .phone li:nth-child(2),
